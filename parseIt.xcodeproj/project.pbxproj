@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A0729B51BE9891300E8B062 /* EditItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0729B21BE9891300E8B062 /* EditItemsViewController.swift */; };
+		3A0729B61BE9891300E8B062 /* UserDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0729B31BE9891300E8B062 /* UserDataTableViewCell.swift */; };
+		3A0729B71BE9891300E8B062 /* UserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0729B41BE9891300E8B062 /* UserDataViewController.swift */; };
 		3A1B8CDD1BE838CC0089B127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B8CDC1BE838CC0089B127 /* AppDelegate.swift */; };
 		3A1B8CDF1BE838CC0089B127 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B8CDE1BE838CC0089B127 /* ViewController.swift */; };
 		3A1B8CE21BE838CC0089B127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1B8CE01BE838CC0089B127 /* Main.storyboard */; };
@@ -14,14 +17,11 @@
 		3A1B8CE71BE838CC0089B127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1B8CE51BE838CC0089B127 /* LaunchScreen.storyboard */; };
 		3A1B8CF21BE838CC0089B127 /* parseItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B8CF11BE838CC0089B127 /* parseItTests.swift */; };
 		3A1B8CFD1BE838CC0089B127 /* parseItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B8CFC1BE838CC0089B127 /* parseItUITests.swift */; };
-		3A1B8D0D1BE839580089B127 /* UserDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B8D0C1BE839580089B127 /* UserDataTableViewCell.swift */; };
-		3A1B8D111BE839B00089B127 /* UserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B8D101BE839B00089B127 /* UserDataViewController.swift */; };
 		3A910D5E1BE89CE4004A6B2A /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A910D5D1BE89CE4004A6B2A /* AccountViewController.swift */; };
 		3A910D621BE8A0A8004A6B2A /* SingerUserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A910D611BE8A0A8004A6B2A /* SingerUserDataViewController.swift */; };
 		3A910D661BE91782004A6B2A /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A910D651BE91782004A6B2A /* UserInfoViewController.swift */; };
 		3A910D6C1BE95FE2004A6B2A /* EditAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A910D6B1BE95FE2004A6B2A /* EditAccountViewController.swift */; };
 		3AEB44B41BE83C3000861A16 /* Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEB44B31BE83C3000861A16 /* Parse.m */; };
-		3AF44C321BE85C7100B889E6 /* EditItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF44C311BE85C7100B889E6 /* EditItemsViewController.swift */; };
 		AB6D491B8A0C74EA39F39AFF /* Pods_parseIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7903DD4BE67A7B691E0A7A95 /* Pods_parseIt.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		3665B214E32B347D07BD2A9B /* Pods-parseIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parseIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-parseIt/Pods-parseIt.release.xcconfig"; sourceTree = "<group>"; };
+		3A0729B21BE9891300E8B062 /* EditItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditItemsViewController.swift; sourceTree = "<group>"; };
+		3A0729B31BE9891300E8B062 /* UserDataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataTableViewCell.swift; sourceTree = "<group>"; };
+		3A0729B41BE9891300E8B062 /* UserDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataViewController.swift; sourceTree = "<group>"; };
 		3A1B8CD91BE838CC0089B127 /* parseIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parseIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1B8CDC1BE838CC0089B127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A1B8CDE1BE838CC0089B127 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,15 +60,12 @@
 		3A1B8CF81BE838CC0089B127 /* parseItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parseItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1B8CFC1BE838CC0089B127 /* parseItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parseItUITests.swift; sourceTree = "<group>"; };
 		3A1B8CFE1BE838CC0089B127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A1B8D0C1BE839580089B127 /* UserDataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDataTableViewCell.swift; path = ../UserDataTableViewCell.swift; sourceTree = "<group>"; };
-		3A1B8D101BE839B00089B127 /* UserDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDataViewController.swift; path = ../UserDataViewController.swift; sourceTree = "<group>"; };
 		3A910D5D1BE89CE4004A6B2A /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		3A910D611BE8A0A8004A6B2A /* SingerUserDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingerUserDataViewController.swift; sourceTree = "<group>"; };
 		3A910D651BE91782004A6B2A /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		3A910D6B1BE95FE2004A6B2A /* EditAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditAccountViewController.swift; sourceTree = "<group>"; };
 		3AEB44B21BE83C2F00861A16 /* parseIt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "parseIt-Bridging-Header.h"; sourceTree = "<group>"; };
 		3AEB44B31BE83C3000861A16 /* Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parse.m; sourceTree = "<group>"; };
-		3AF44C311BE85C7100B889E6 /* EditItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditItemsViewController.swift; path = ../EditItemsViewController.swift; sourceTree = "<group>"; };
 		7903DD4BE67A7B691E0A7A95 /* Pods_parseIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parseIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4A9F3CAC319337CC3276A1 /* Pods-parseIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parseIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-parseIt/Pods-parseIt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,9 +167,9 @@
 			isa = PBXGroup;
 			children = (
 				3A910D5D1BE89CE4004A6B2A /* AccountViewController.swift */,
-				3A1B8D101BE839B00089B127 /* UserDataViewController.swift */,
-				3A1B8D0C1BE839580089B127 /* UserDataTableViewCell.swift */,
-				3AF44C311BE85C7100B889E6 /* EditItemsViewController.swift */,
+				3A0729B21BE9891300E8B062 /* EditItemsViewController.swift */,
+				3A0729B31BE9891300E8B062 /* UserDataTableViewCell.swift */,
+				3A0729B41BE9891300E8B062 /* UserDataViewController.swift */,
 			);
 			name = Older;
 			sourceTree = "<group>";
@@ -366,15 +366,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A1B8CDF1BE838CC0089B127 /* ViewController.swift in Sources */,
+				3A0729B51BE9891300E8B062 /* EditItemsViewController.swift in Sources */,
 				3A910D621BE8A0A8004A6B2A /* SingerUserDataViewController.swift in Sources */,
 				3A910D6C1BE95FE2004A6B2A /* EditAccountViewController.swift in Sources */,
-				3A1B8D0D1BE839580089B127 /* UserDataTableViewCell.swift in Sources */,
 				3A910D5E1BE89CE4004A6B2A /* AccountViewController.swift in Sources */,
 				3A910D661BE91782004A6B2A /* UserInfoViewController.swift in Sources */,
 				3AEB44B41BE83C3000861A16 /* Parse.m in Sources */,
-				3AF44C321BE85C7100B889E6 /* EditItemsViewController.swift in Sources */,
+				3A0729B71BE9891300E8B062 /* UserDataViewController.swift in Sources */,
 				3A1B8CDD1BE838CC0089B127 /* AppDelegate.swift in Sources */,
-				3A1B8D111BE839B00089B127 /* UserDataViewController.swift in Sources */,
+				3A0729B61BE9891300E8B062 /* UserDataTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
